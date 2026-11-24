@@ -4,7 +4,7 @@ Every Friday, your coaching agent reads the email, chat, and meeting transcripts
 
 **[Download the skill ZIP](downloads/personal-career-coach.zip?raw=true)** · **[Read or copy the full skill](personal-career-coach/SKILL.md)**
 
-By Justin Scoville, PMP, PgMP.
+Created by Justin Scoville, PMP, PgMP, founder of [Ondatrace](https://ondatrace.com). Released under the [MIT License](LICENSE).
 
 ## Use it with your AI assistant
 

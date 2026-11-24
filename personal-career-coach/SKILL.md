@@ -77,3 +77,29 @@ Run autonomously with the saved setup. Use the scheduled Friday and user's time 
 3. Update the same dashboard in place. Give the current week a dated heading, a rating and source-backed coaching note for each category, progress on the last experiment, and one next experiment. Keep earlier dated entries available. Use one entry per Friday date: a retry replaces that week's entry. Preserve the person's notes and setup. When rerunning an older period, keep the newest week in the current view.
 4. With partial coverage, label the week “Partial coverage” and rate only categories with sufficient evidence. When all sources are unavailable or yield no relevant evidence, record a dated coverage note, leave the last evidence-backed ratings visible with their original date, and explain what would restore coverage. Never carry old ratings forward as fresh observations. A degraded retry must preserve previously verified evidence for that week and label its source coverage.
 5. Verify the saved dashboard contains the intended Friday entry. Then send the person a short private update with the dashboard link, one meaningful change or strength, and their next experiment. If coverage prevented coaching, report the gap instead. If writing failed, report that the dashboard update is pending. If only notification failed, keep the saved entry and retry delivery without creating another report.
+
+## License
+
+```text
+MIT License
+
+Copyright (c) 2026 Justin Scoville
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
