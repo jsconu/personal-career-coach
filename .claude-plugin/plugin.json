@@ -1,0 +1,14 @@
+{
+  "name": "personal-career-coach",
+  "version": "1.0.0",
+  "description": "Coach yourself on your own work: infer your role from work you share, research what the role expects, refresh a private progress dashboard every Friday from the sources you approve, and get executive presence feedback and practice for a target role.",
+  "author": {
+    "name": "Justin Scoville",
+    "url": "https://ondatrace.com"
+  },
+  "homepage": "https://ondatrace.com/ai-skills/",
+  "repository": "https://github.com/jsconu/personal-career-coach",
+  "license": "MIT",
+  "keywords": ["career", "coaching", "executive-presence", "professional-development", "skills"],
+  "skills": ["./personal-career-coach"]
+}
