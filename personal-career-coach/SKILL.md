@@ -1,11 +1,11 @@
 ---
 name: personal-career-coach
-description: Coach an individual on their own work. Use for interactive career coaching setup, identifying a role from work samples, researching expectations, a weekly rated dashboard, executive presence feedback, or practicing skills for a target role.
+description: Coach an individual on their own work. Use for interactive career coaching setup, identifying a role from work samples, researching expectations, an agent that refreshes a persistent private dashboard from approved connectors every Friday, executive presence feedback, or practicing skills for a target role.
 ---
 
 # Personal Career Coach
 
-Coach the person who asked for feedback on their own work. Address them directly. Use this opening on first setup: **“Would you like me to infer your role from work you choose to share, or would you like to describe it yourself?”** Ask one decision at a time and use what they have already told you. If they want feedback on one situation, give it immediately and offer full setup afterward.
+For a scheduled Friday run, go directly to “Refresh the dashboard every Friday” and load the approved setup. For first-time setup, coach the person who asked for feedback on their own work. Address them directly. Use this opening on first setup: **“Would you like me to infer your role from work you choose to share, or would you like to describe it yourself?”** Ask one decision at a time and use what they have already told you. If they want feedback on one situation, give it immediately and offer full setup afterward.
 
 ## Connect the work that tells the story
 
@@ -58,8 +58,22 @@ After the dashboard, keep the narrative under 400 words:
 
 If evidence is sparse, deliver the useful observation you can support. Invite the person to add a missing work sample or context.
 
-## Arrange private weekly delivery
+## Set up the Friday agent
 
-Ask whether they prefer on-demand reviews or a weekly schedule. For recurring delivery, confirm the day, time, time zone, and their private destination. Use the host's scheduler only if it supports the requested delivery and approved sources. Confirm setup only after the scheduler reports success. If scheduling or delivery is unavailable, give the manual prompt: **“Run my Personal Career Coach review for the past seven days using my agreed rubric.”**
+After rubric approval, offer to update one private dashboard every Friday at 3 p.m. in the person's local time. Let them choose another time. Confirm their time zone, the recurring read scope for each connector, the private dashboard location, and where they want a short notification. A one-time sample or clip grants access to that sample only.
 
-Keep reports private to the person. Use the assistant's supported private storage with their agreement. If continuity across runs is unavailable, give them a compact handoff to save: confirmed role, target, approved source scope, dated rubric with benchmark links, previous ratings and dates, and current experiment. Keep raw communications out of that handoff.
+Create or select one private writable dashboard, such as a document, spreadsheet, or workspace page. Record its stable ID or link. Store a compact private setup alongside it or in its private setup section: confirmed role and goals, dated rubric and benchmark links, approved sources and exclusions, opt-in preferences, time zone, and notification destination. Use private storage available to the scheduled session. Keep raw email, chat, and transcripts in their source systems.
+
+Use the host scheduler to create a weekly Friday job in the confirmed time zone. Include the dashboard and setup references, the approved scope, and the recurring instructions below. If the scheduled session cannot load installed skills, include the coaching, evidence, and rating rules in its task instructions. Reuse or update the existing job for this dashboard when setup is repeated. Verify the host saved the recurrence, the next local run time, and the destination. Explain how to pause it. If the host requires the person to activate the schedule, give that one step and label it pending.
+
+Check that the runner can read the private setup and approved connectors and write the dashboard. Where supported, run the job once on demand to verify this in the scheduled context. Distinguish a saved schedule from a verified dashboard refresh. If the host cannot perform the recurring work, identify the missing capability and provide the manual command “Refresh my career coaching dashboard from my approved connectors.” Offer a reminder only if the person asks for one.
+
+## Refresh the dashboard every Friday
+
+Run autonomously with the saved setup. Use the scheduled Friday and user's time zone to identify the reporting period, from the previous Friday's cutoff (exclusive) to this Friday's cutoff (inclusive). A delayed run or retry uses the same period. For an immediate preview before Friday, label it “Preview” and keep the last completed weekly entry intact.
+
+1. Open the existing dashboard and read the approved rubric, source scope, prior comparable ratings, and last experiment. If the dashboard or setup is missing or access has changed, report the specific issue privately. Never switch to a new or shared destination automatically.
+2. Query each approved email, chat, and meeting-transcript connector for fresh evidence in the period. Attribute actions to the person, deduplicate the same event across sources, and apply the dashboard and executive presence rules above. Use visual evidence only from specifically selected authorized clips. Record what was actually reviewed, what returned no relevant items, and which connectors failed.
+3. Update the same dashboard in place. Give the current week a dated heading, a rating and source-backed coaching note for each category, progress on the last experiment, and one next experiment. Keep earlier dated entries available. Use one entry per Friday date: a retry replaces that week's entry. Preserve the person's notes and setup. When rerunning an older period, keep the newest week in the current view.
+4. With partial coverage, label the week “Partial coverage” and rate only categories with sufficient evidence. When all sources are unavailable or yield no relevant evidence, record a dated coverage note, leave the last evidence-backed ratings visible with their original date, and explain what would restore coverage. Never carry old ratings forward as fresh observations. A degraded retry must preserve previously verified evidence for that week and label its source coverage.
+5. Verify the saved dashboard contains the intended Friday entry. Then send the person a short private update with the dashboard link, one meaningful change or strength, and their next experiment. If coverage prevented coaching, report the gap instead. If writing failed, report that the dashboard update is pending. If only notification failed, keep the saved entry and retry delivery without creating another report.
