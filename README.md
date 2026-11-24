@@ -2,13 +2,13 @@
 
 Every Friday, your coaching agent reads the email, chat, and meeting transcripts you’ve approved and updates the same private dashboard. You can follow the evidence behind each rating and see what changed from the previous week. Pick a role or let the coach infer one, agree on what good performance looks like, and get one concrete thing to practice next week.
 
-**[Download the skill ZIP](downloads/personal-career-coach.zip?raw=true)** · **[Read or copy the full skill](personal-career-coach/SKILL.md)**
+**[Download the skill ZIP](https://github.com/jsconu/personal-career-coach/releases/latest/download/personal-career-coach.zip)** · **[Read or copy the full skill](personal-career-coach/SKILL.md)**
 
 Created by Justin Scoville, PMP, PgMP, founder of [Ondatrace](https://ondatrace.com). Released under the [MIT License](LICENSE).
 
 ## Use it with your AI assistant
 
-**Claude:** Upload the [skill ZIP](downloads/personal-career-coach.zip?raw=true) in the Skills area and enable it. [Claude’s upload instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+**Claude:** Upload the [skill ZIP](https://github.com/jsconu/personal-career-coach/releases/latest/download/personal-career-coach.zip) in the Skills area and enable it. [Claude’s upload instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 
 **ChatGPT, Gemini, Microsoft Copilot, or another text assistant:** Open the [full coaching instructions](personal-career-coach/SKILL.md), copy the text, and paste it into a private chat. Add “Follow these instructions and set up my Personal Career Coach.” If your workspace supports reusable instructions, you can save the text there for future reviews.
 
