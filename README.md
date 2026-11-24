@@ -6,12 +6,19 @@ Every Friday, your coaching agent reads the email, chat, and meeting transcripts
 
 By Justin Scoville, PMP, PgMP.
 
+## Use it with your AI assistant
+
+**Claude:** Upload the [skill ZIP](downloads/personal-career-coach.zip?raw=true) in the Skills area and enable it. [Claude’s upload instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+
+**ChatGPT, Gemini, Microsoft Copilot, or another text assistant:** Open the [full coaching instructions](personal-career-coach/SKILL.md), copy the text, and paste it into a private chat. Add “Follow these instructions and set up my Personal Career Coach.” If your workspace supports reusable instructions, you can save the text there for future reviews.
+
+**Using a basic chat?** Paste work samples you can share. Ask for the dashboard as a table and save it in your own document. For the next review, supply your approved rubric, previous dashboard, and new samples. For automatic Friday updates, the scheduled session needs to read your chosen connectors and edit the same private dashboard. Ask the assistant to show you the saved schedule and verify a first update.
+
 ## Start here
 
-1. **Install or paste.** In Claude, upload the skill ZIP in the Skills area and enable it. For an assistant that accepts text instructions, open the Markdown link above, copy the instructions, and paste them into a private chat. [Claude’s skill upload instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
-2. **Say “Set up my Personal Career Coach.”** Choose whether to describe your job or let the coach infer it from work samples. Connect the email, work chat, and transcript sources you want it to use. Together they show what happened in the meeting, what changed afterward, and what you followed through on. You can start with a single pasted excerpt.
-3. **Approve your rubric.** Bring a job description or employer rubric if you have one. With web access, the coach researches public role benchmarks and explains how they apply. Choose your current role, a target role, or both.
-4. **Set up Friday updates.** Choose a private dashboard your assistant can edit and confirm your connector scope and time zone. The suggested time is Friday at 3 p.m. local time. The agent saves the schedule when supported and shows the next run. Ask for a preview to see your first dashboard immediately.
+1. **Say “Set up my Personal Career Coach.”** Choose whether to describe your job or let the coach infer it from work samples. Connect the email, work chat, and transcript sources you want it to use. Together they show what happened in the meeting, what changed afterward, and what you followed through on. You can start with a single pasted excerpt.
+2. **Approve your rubric.** Bring a job description or employer rubric if you have one. With web access, the coach researches public role benchmarks and explains how they apply. Choose your current role, a target role, or both.
+3. **Set up Friday updates.** Choose a private dashboard your assistant can edit and confirm your connector scope and time zone. The suggested time is Friday at 3 p.m. local time. The agent saves the schedule when supported and shows the next run. Ask for a preview to see your first dashboard immediately.
 
 ## What happens on Friday?
 
