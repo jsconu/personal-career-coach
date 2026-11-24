@@ -1,0 +1,33 @@
+name: Publish downloadable coach
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'downloads/personal-career-coach.zip'
+      - '.github/workflows/publish-skill.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-coach
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish the verified ZIP
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          git diff --exit-code
+          unzip -p downloads/personal-career-coach.zip personal-career-coach/SKILL.md | cmp personal-career-coach/SKILL.md -
+          tag="skill-${GITHUB_SHA:0:12}"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" --target "$GITHUB_SHA" --title "Personal Career Coach" --notes "Download the skill ZIP below." --draft
+          fi
+          if [ "$(gh release view "$tag" --json isDraft --jq .isDraft)" = true ]; then
+            gh release upload "$tag" downloads/personal-career-coach.zip --clobber
+            gh release edit "$tag" --draft=false --latest
+          fi
