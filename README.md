@@ -6,6 +6,8 @@ Every Friday, your coaching agent reads the email, chat, and meeting transcripts
 
 Created by Justin Scoville, PMP, PgMP, founder of [Ondatrace](https://ondatrace.com). Released under the [MIT License](LICENSE).
 
+> **Get practical AI tips for project managers.** Skills, agents and workflows I actually use to run projects with AI, sent to your inbox. [Join the free email list](https://ondatrace.kit.com/pmo-skills)
+
 ## Use it with your AI assistant
 
 **Claude:** Upload the [skill ZIP](https://github.com/jsconu/personal-career-coach/releases/latest/download/personal-career-coach.zip) in the Skills area and enable it. [Claude’s upload instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
